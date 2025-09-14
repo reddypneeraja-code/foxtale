@@ -1,0 +1,94 @@
+/* General Reset */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+  }
+  
+  /* Carousel Styling */
+  .carousel-item img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 400px;
+  }
+  
+  .carousel {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Intro Section */
+  section.text-center {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Products Grid */
+  .card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card-footer {
+    background-color: #fff;
+    border-top: none;
+  }
+  
+  .card img {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #ff5722;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 60px;
+  }
+  
+  /* Responsive Padding for Smaller Screens */
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 250px;
+    }
+  }
+  
+  
